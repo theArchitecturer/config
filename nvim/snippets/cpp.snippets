@@ -1,0 +1,47 @@
+snippet #inc<
+	#include<${1}>
+	${2}
+
+snippet #inc""
+	#include"${1}.hpp"
+	${2}
+
+snippet #de
+	#define
+
+snippet #ifdef
+	#ifdef
+	${1}
+	#endifn
+
+snippet #if
+	#if
+	${1}
+	#endif
+
+snippet vector
+	std::vector<${1:T}> $2
+
+snippet string
+	std::string<${1:T}> $2
+
+snippet array
+	std::array<${1:T, 2:N}> $3
+
+snippet deque
+	std::deque<${1:T}> $2
+
+snippet fora+
+	for (auto ${2:i} = ${3}; $2 < ${1:count}; ++$2) {
+		${4}
+	}
+
+snippet main
+	int main(int argc, const char* argv[]){
+		${1}
+	}
+
+snippet mainv
+	int main(){
+		${1}
+	}

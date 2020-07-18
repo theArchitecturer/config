@@ -1,0 +1,166 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.009  000.009: --- NVIM STARTING ---
+000.448  000.440: locale set
+000.827  000.378: inits 1
+000.849  000.022: window checked
+000.854  000.005: parsing arguments
+000.930  000.076: expanding arguments
+000.973  000.043: inits 2
+001.967  000.993: init highlight
+002.129  000.162: waiting for UI
+002.939  000.810: done waiting for UI
+003.176  000.236: initialized screen early for UI
+003.377  000.042  000.042: sourcing /usr/share/nvim/archlinux.vim
+003.395  000.151  000.109: sourcing /etc/xdg//nvim/sysinit.vim
+006.427  002.842  002.842: sourcing /home/thearchitecturer/.local/share/nvim/site/autoload/plug.vim
+018.380  000.024  000.024: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-fugitive/ftdetect/fugitive.vim
+018.497  000.039  000.039: sourcing /home/thearchitecturer/.config/nvim/plugged/rust.vim/ftdetect/rust.vim
+018.642  000.014  000.014: sourcing /usr/share/vim/vimfiles/ftdetect/PKGBUILD.vim
+018.702  006.516  006.439: sourcing /usr/share/nvim/runtime/filetype.vim
+018.883  000.033  000.033: sourcing /usr/share/nvim/runtime/ftplugin.vim
+019.075  000.032  000.032: sourcing /usr/share/nvim/runtime/indent.vim
+019.740  000.309  000.309: sourcing /usr/share/nvim/runtime/syntax/syncolor.vim
+019.910  000.630  000.320: sourcing /usr/share/nvim/runtime/syntax/synload.vim
+019.959  000.819  000.189: sourcing /usr/share/nvim/runtime/syntax/syntax.vim
+020.654  000.415  000.415: sourcing /usr/share/nvim/runtime/syntax/nosyntax.vim
+021.208  000.154  000.154: sourcing /usr/share/nvim/runtime/syntax/syncolor.vim
+021.332  000.477  000.323: sourcing /usr/share/nvim/runtime/syntax/synload.vim
+021.360  001.174  000.282: sourcing /usr/share/nvim/runtime/syntax/syntax.vim
+021.631  000.211  000.211: sourcing /usr/share/nvim/runtime/syntax/nosyntax.vim
+022.003  000.109  000.109: sourcing /usr/share/nvim/runtime/syntax/syncolor.vim
+022.106  000.350  000.241: sourcing /usr/share/nvim/runtime/syntax/synload.vim
+022.132  000.746  000.185: sourcing /usr/share/nvim/runtime/syntax/syntax.vim
+022.459  000.018  000.018: sourcing /usr/share/nvim/runtime/filetype.vim
+022.621  000.012  000.012: sourcing /usr/share/nvim/runtime/ftplugin.vim
+022.822  000.022  000.022: sourcing /usr/share/nvim/runtime/indent.vim
+022.941  002.831  000.859: sourcing /home/thearchitecturer/.config/nvim/configs/01.basic.vim
+022.997  000.016  000.016: sourcing /home/thearchitecturer/.config/nvim/configs/02.filetype.vim
+023.551  000.531  000.531: sourcing /home/thearchitecturer/.config/nvim/configs/03.coc_neovim.vim
+024.163  000.145  000.145: sourcing /usr/share/nvim/runtime/syntax/syncolor.vim
+025.131  000.157  000.157: sourcing /usr/share/nvim/runtime/syntax/syncolor.vim
+025.674  000.156  000.156: sourcing /usr/share/nvim/runtime/syntax/syncolor.vim
+025.851  000.084  000.084: sourcing /home/thearchitecturer/.config/nvim/plugged/dracula/autoload/dracula.vim
+029.099  004.606  004.210: sourcing /home/thearchitecturer/.config/nvim/plugged/dracula/colors/dracula.vim
+029.296  025.834  007.464: sourcing /home/thearchitecturer/.config/nvim/init.vim
+029.302  000.141: sourcing vimrc file(s)
+029.811  000.076  000.076: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/init.vim
+030.216  000.073  000.073: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/parts.vim
+031.633  000.208  000.208: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/util.vim
+031.716  002.191  001.835: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/plugin/airline.vim
+031.839  000.041  000.041: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline-themes/plugin/airline-themes.vim
+031.963  000.055  000.055: sourcing /home/thearchitecturer/.config/nvim/plugged/tmuxline.vim/plugin/tmuxline.vim
+032.233  000.200  000.200: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim
+032.521  000.174  000.174: sourcing /home/thearchitecturer/.config/nvim/plugged/animate.vim/plugin/animate.vim
+033.389  000.138  000.138: sourcing /home/thearchitecturer/.config/nvim/plugged/nerdtree/autoload/nerdtree.vim
+034.467  000.350  000.350: sourcing /home/thearchitecturer/.config/nvim/plugged/nerdtree/lib/nerdtree/path.vim
+034.662  000.109  000.109: sourcing /home/thearchitecturer/.config/nvim/plugged/nerdtree/lib/nerdtree/menu_controller.vim
+034.878  000.074  000.074: sourcing /home/thearchitecturer/.config/nvim/plugged/nerdtree/lib/nerdtree/menu_item.vim
+035.026  000.073  000.073: sourcing /home/thearchitecturer/.config/nvim/plugged/nerdtree/lib/nerdtree/key_map.vim
+035.249  000.152  000.152: sourcing /home/thearchitecturer/.config/nvim/plugged/nerdtree/lib/nerdtree/bookmark.vim
+035.470  000.143  000.143: sourcing /home/thearchitecturer/.config/nvim/plugged/nerdtree/lib/nerdtree/tree_file_node.vim
+035.872  000.322  000.322: sourcing /home/thearchitecturer/.config/nvim/plugged/nerdtree/lib/nerdtree/tree_dir_node.vim
+036.070  000.126  000.126: sourcing /home/thearchitecturer/.config/nvim/plugged/nerdtree/lib/nerdtree/opener.vim
+036.336  000.194  000.194: sourcing /home/thearchitecturer/.config/nvim/plugged/nerdtree/lib/nerdtree/creator.vim
+036.501  000.063  000.063: sourcing /home/thearchitecturer/.config/nvim/plugged/nerdtree/lib/nerdtree/flag_set.vim
+036.705  000.105  000.105: sourcing /home/thearchitecturer/.config/nvim/plugged/nerdtree/lib/nerdtree/nerdtree.vim
+036.979  000.207  000.207: sourcing /home/thearchitecturer/.config/nvim/plugged/nerdtree/lib/nerdtree/ui.vim
+037.070  000.019  000.019: sourcing /home/thearchitecturer/.config/nvim/plugged/nerdtree/lib/nerdtree/event.vim
+037.180  000.035  000.035: sourcing /home/thearchitecturer/.config/nvim/plugged/nerdtree/lib/nerdtree/notifier.vim
+037.567  000.306  000.306: sourcing /home/thearchitecturer/.config/nvim/plugged/nerdtree/autoload/nerdtree/ui_glue.vim
+040.775  000.105  000.105: sourcing /home/thearchitecturer/.config/nvim/plugged/nerdtree/nerdtree_plugin/exec_menuitem.vim
+047.391  006.063  006.063: sourcing /usr/share/nvim/runtime/autoload/provider/clipboard.vim
+047.891  007.082  001.019: sourcing /home/thearchitecturer/.config/nvim/plugged/nerdtree/nerdtree_plugin/fs_menu.vim
+048.082  000.122  000.122: sourcing /home/thearchitecturer/.config/nvim/plugged/nerdtree/nerdtree_plugin/vcs.vim
+048.860  000.631  000.631: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-devicons/nerdtree_plugin/webdevicons.vim
+049.351  016.701  006.346: sourcing /home/thearchitecturer/.config/nvim/plugged/nerdtree/plugin/NERD_tree.vim
+050.698  000.177  000.177: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline.vim
+052.751  003.286  003.109: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-devicons/plugin/webdevicons.vim
+054.060  001.149  001.149: sourcing /home/thearchitecturer/.config/nvim/plugged/fzf/plugin/fzf.vim
+056.107  001.927  001.927: sourcing /home/thearchitecturer/.config/nvim/plugged/fzf.vim/plugin/fzf.vim
+057.839  001.579  001.579: sourcing /home/thearchitecturer/.config/nvim/plugged/tagbar/plugin/tagbar.vim
+058.439  000.459  000.459: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-system-copy/plugin/system_copy.vim
+059.582  001.008  001.008: sourcing /home/thearchitecturer/.config/nvim/plugged/auto-pairs/plugin/auto-pairs.vim
+059.890  000.211  000.211: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-commentary/plugin/commentary.vim
+061.739  001.773  001.773: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-fugitive/plugin/fugitive.vim
+062.527  000.688  000.688: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-surround/plugin/surround.vim
+070.682  008.072  008.072: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-unimpaired/plugin/unimpaired.vim
+071.248  000.188  000.188: sourcing /home/thearchitecturer/.config/nvim/plugged/coc.nvim/autoload/coc/rpc.vim
+071.865  000.491  000.491: sourcing /home/thearchitecturer/.config/nvim/plugged/coc.nvim/autoload/coc/util.vim
+072.326  000.169  000.169: sourcing /home/thearchitecturer/.config/nvim/plugged/coc.nvim/autoload/coc/client.vim
+077.025  006.230  005.381: sourcing /home/thearchitecturer/.config/nvim/plugged/coc.nvim/plugin/coc.vim
+077.353  000.142  000.142: sourcing /home/thearchitecturer/.config/nvim/plugged/rust.vim/plugin/cargo.vim
+077.428  000.045  000.045: sourcing /home/thearchitecturer/.config/nvim/plugged/rust.vim/plugin/rust.vim
+078.080  000.338  000.338: sourcing /usr/share/nvim/runtime/plugin/gzip.vim
+078.148  000.017  000.017: sourcing /usr/share/nvim/runtime/plugin/health.vim
+078.296  000.117  000.117: sourcing /usr/share/nvim/runtime/plugin/man.vim
+079.087  000.331  000.331: sourcing /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+079.148  000.822  000.491: sourcing /usr/share/nvim/runtime/plugin/matchit.vim
+079.335  000.158  000.158: sourcing /usr/share/nvim/runtime/plugin/matchparen.vim
+080.215  000.850  000.850: sourcing /usr/share/nvim/runtime/plugin/netrwPlugin.vim
+081.026  000.210  000.210: sourcing /usr/share/nvim/runtime/autoload/remote/host.vim
+081.396  000.133  000.133: sourcing /usr/share/nvim/runtime/autoload/remote/define.vim
+081.484  000.949  000.606: sourcing /home/thearchitecturer/.local/share/nvim/rplugin.vim
+081.494  001.180  000.231: sourcing /usr/share/nvim/runtime/plugin/rplugin.vim
+081.788  000.260  000.260: sourcing /usr/share/nvim/runtime/plugin/shada.vim
+081.862  000.036  000.036: sourcing /usr/share/nvim/runtime/plugin/spellfile.vim
+082.113  000.204  000.204: sourcing /usr/share/nvim/runtime/plugin/tarPlugin.vim
+082.234  000.088  000.088: sourcing /usr/share/nvim/runtime/plugin/tohtml.vim
+082.318  000.026  000.026: sourcing /usr/share/nvim/runtime/plugin/tutor.vim
+082.561  000.212  000.212: sourcing /usr/share/nvim/runtime/plugin/zipPlugin.vim
+082.589  003.047: loading plugins
+082.688  000.099: loading packages
+082.951  000.080  000.080: sourcing /home/thearchitecturer/.config/nvim/plugged/dracula/after/plugin/dracula.vim
+082.973  000.205: loading after plugins
+082.991  000.018: inits 3
+083.536  000.545: reading ShaDa
+084.169  000.225  000.225: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/extensions.vim
+084.309  000.049  000.049: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/extensions/quickfix.vim
+084.471  000.032  000.032: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/extensions/netrw.vim
+084.597  000.036  000.036: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/extensions/fzf.vim
+085.066  000.058  000.058: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/section.vim
+085.366  000.158  000.158: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/highlighter.vim
+085.523  000.628  000.412: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/extensions/term.vim
+085.766  000.083  000.083: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/extensions/hunks.vim
+085.921  000.051  000.051: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/extensions/tagbar.vim
+086.231  000.161  000.161: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/extensions/branch.vim
+086.502  000.074  000.074: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/extensions/fugitiveline.vim
+086.719  000.048  000.048: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/extensions/coc.vim
+086.960  000.097  000.097: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/extensions/whitespace.vim
+087.334  000.048  000.048: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/extensions/po.vim
+087.504  000.076  000.076: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/extensions/wordcount.vim
+087.717  000.126  000.126: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/extensions/tabline.vim
+087.851  000.044  000.044: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/extensions/tabline/autoshow.vim
+088.223  000.077  000.077: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/extensions/tabline/tabs.vim
+088.478  000.123  000.123: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/extensions/tabline/buffers.vim
+088.687  000.038  000.038: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/extensions/tmuxline.vim
+088.833  000.026  000.026: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/extensions/keymap.vim
+094.582  000.048  000.048: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/themes.vim
+094.816  000.395  000.348: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline-themes/autoload/airline/themes/bubblegum.vim
+096.886  000.266  000.266: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline-themes/autoload/airline/themes/bubblegum.vim
+118.488  000.037  000.037: sourcing /home/thearchitecturer/.config/nvim/plugged/tmuxline.vim/autoload/tmuxline/api.vim
+118.678  000.113  000.113: sourcing /home/thearchitecturer/.config/nvim/plugged/tmuxline.vim/autoload/tmuxline/util.vim
+118.940  000.130  000.130: sourcing /home/thearchitecturer/.config/nvim/plugged/tmuxline.vim/autoload/tmuxline.vim
+119.065  000.022  000.022: sourcing /home/thearchitecturer/.config/nvim/plugged/tmuxline.vim/autoload/tmuxline/presets/powerline.vim
+119.201  000.059  000.059: sourcing /home/thearchitecturer/.config/nvim/plugged/tmuxline.vim/autoload/tmuxline/builder.vim
+131.623  000.218  000.218: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/builder.vim
+132.122  000.078  000.078: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/extensions/default.vim
+156.379  069.482: opening buffers
+157.708  001.329: BufEnter autocommands
+157.713  000.005: editing files in windows
+159.044  000.065  000.065: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/extensions/tabline/buflist.vim
+162.712  000.415  000.415: sourcing /home/thearchitecturer/.config/nvim/plugged/nerdtree/syntax/nerdtree.vim
+180.508  000.104  000.104: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/extensions/tabline/ctrlspace.vim
+180.666  000.078  000.078: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/extensions/tabline/tabws.vim
+181.142  000.117  000.117: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/extensions/tabline/builder.vim
+184.075  000.038  000.038: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-devicons/autoload/airline/extensions/tabline/formatters/webdevicons.vim
+184.201  000.049  000.049: sourcing /home/thearchitecturer/.config/nvim/plugged/vim-airline/autoload/airline/extensions/tabline/formatters/default.vim
+237.334  078.754: VimEnter autocommands
+237.347  000.013: UIEnter autocommands
+237.350  000.003: before starting main loop
+263.237  025.887: first screen update
+263.250  000.013: --- NVIM STARTED ---
