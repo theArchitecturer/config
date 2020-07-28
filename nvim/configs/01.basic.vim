@@ -9,7 +9,7 @@ set nocompatible
 set autoindent
 set smartindent
 set tabstop=4
-" set softtabstop
+set softtabstop
 set expandtab
 set shiftwidth=4 				"indent 4 spaces
 set textwidth=120 				"wrap line at 120 chars.
@@ -67,6 +67,7 @@ set background=dark
 colorscheme dracula
 " colorscheme gruvbox
 " let g:gruvbox_termcolors=256
+" colorscheme solarized
 " let g:solarized_termcolos=256
 let g:airline_theme='bubblegum'
 " hi Normal guibg=NONE ctermbg=NONE

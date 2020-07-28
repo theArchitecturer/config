@@ -25,28 +25,26 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'camspiers/animate.vim'
 Plug 'yggdroot/indentline'
 Plug 'kien/rainbow_parentheses.vim'
+Plug 'ryanoasis/vim-devicons'
 Plug 'sheerun/vim-polyglot'
+" Plug 'sbdchd/neoformat'
 
 Plug 'scrooloose/nerdtree'
-Plug 'ryanoasis/vim-devicons'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-Plug 'majutsushi/tagbar'
+" Plug 'majutsushi/tagbar'
 "Syntax handing
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-fugitive'
+" Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'autozimu/LanguageClient-neovim', {
     \ 'branch': 'next',
     \ 'do': 'bash install.sh',
     \ }
-" Plug 'rust-lang/rust.vim'
-" Plug 'mattn/webapi-vim'
 
 call plug#end()
 
