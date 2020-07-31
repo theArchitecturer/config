@@ -40,21 +40,29 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'autozimu/LanguageClient-neovim', {
-    \ 'branch': 'next',
-    \ 'do': 'bash install.sh',
-    \ }
+" Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+" Plug 'artur-shaik/vim-javacomplete2'
+" Plug 'autozimu/LanguageClient-neovim', {
+    " \ 'branch': 'next',
+    " \ 'do': 'bash install.sh',
+    " \ }
+" Plug 'MarcWeber/vim-addon-mw-utils'
+" Plug 'tomtom/tlib_vim'
+" Plug 'garbas/vim-snipmate'
+" Plug 'terryma/vim-multiple-cursors'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
+" \ '03.build_task.vim',
+" \ '12.deoplete.vim',
 let g:vim_home = get(g:, 'vim_home', expand('~/.config/nvim/configs/'))
 let config_list = [
 	\ '01.basic.vim',
 	\ '02.filetype.vim',
+    \ '13.coc_neovim.vim',
 	\ '11.system_copy.vim',
-    \ '12.deoplete.vim',
-    \ '04.plugin.vim',
+    \ '14.plugin.vim',
      	\]
 for files in config_list
   for f in glob(g:vim_home.files, 1, 1)

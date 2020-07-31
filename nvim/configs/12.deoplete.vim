@@ -6,6 +6,7 @@
 "                 |_|
 let g:deoplete#enable_at_startup = 1
 set completeopt-=preview
+call deoplete#custom#option('max_list', 20)
 
 let g:LanguageClient_serverCommands = {
             \ 'rust': ['/usr/bin/rustup', 'run', 'stable', 'rls'],
