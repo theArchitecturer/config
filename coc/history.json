@@ -1,0 +1,40 @@
+{
+  "commands": {
+    "%2Fhome%2Fthearchitecturer%2F": {
+      "config%2Fnvim%2Fconfigs": [
+        "cla"
+      ]
+    },
+    "%2Fhome%2Fthearchitecturer%2FDev%2FCpp": [
+      "sn",
+      "editS"
+    ],
+    "%2Fhome%2Fthearchitecturer%2FDev%2FJava%2FmidiPlayer": [
+      "clang"
+    ],
+    "%2Fhome%2Fthearchitecturer%2FDev%2FJava%2FGui": [
+      "edit"
+    ]
+  },
+  "marketplace": {
+    "%2Fhome%2Fthearchitecturer%2FDev%2FCpp": [
+      "template"
+    ]
+  },
+  "templates": {
+    "%2Fhome%2Fthearchitecturer%2FDev%2FCpp": [
+      "c"
+    ]
+  },
+  "tasks": {
+    "%2Fhome%2Fthearchitecturer%2FDev%2FCpp": [
+      "ru",
+      "r"
+    ]
+  },
+  "outline": {
+    "%2Fhome%2Fthearchitecturer%2FDev%2FJava%2FmidiPlayer": [
+      "t"
+    ]
+  }
+}

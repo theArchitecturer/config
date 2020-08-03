@@ -75,4 +75,9 @@ nnoremap <silent> <Right> :call animate#window_delta_width(-10)<CR>
 "| | | | | (_| |  __| | | | |_| |___| | | | |  __/
 "|_|_| |_|\__,_|\___|_| |_|\__|_____|_|_| |_|\___|
 let g:indentLine_char_list = ['|', '¦', '┆', '┊']
-set list lcs=tab:\|\
+
+"  _   _   _   _   _   _   _   _  
+" / \ / \ / \ / \ / \ / \ / \ / \ 
+"( a | s | y | n | c | r | u | n )
+" \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ 
+let g:asyncrun_open = 5

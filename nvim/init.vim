@@ -1,10 +1,9 @@
 "#      __                                   __
-"#	   / /   ___  ____ ___  ____  ____  ____/ /___ ___  __
-"#	  / /   / _ \/ __ `__ \/ __ \/ __ \/ __  / __ `/ / / /
-"#	 / /___/  __/ / / / / / /_/ / / / / /_/ / /_/ / /_/ /
-"#	/_____/\___/_/ /_/ /_/\____/_/ /_/\__,_/\__,_/\__, /
-"#	                                             /____/
-
+"#     / /   ___  ____ ___  ____  ____  ____/ /___ ___  __
+"#    / /   / _ \/ __ `__ \/ __ \/ __ \/ __  / __ `/ / / /
+"#   / /___/  __/ / / / / / /_/ / / / / /_/ / /_/ / /_/ /
+"#  /_____/\___/_/ /_/ /_/\____/_/ /_/\__,_/\__,_/\__, /
+"#                                               /____/
 
 "#       _                       _             
 "#__   _(_)_ __ ___        _ __ | |_   _  __ _ 
@@ -27,7 +26,6 @@ Plug 'yggdroot/indentline'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'sheerun/vim-polyglot'
-" Plug 'sbdchd/neoformat'
 
 Plug 'scrooloose/nerdtree'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -51,19 +49,21 @@ Plug 'tpope/vim-unimpaired'
 " Plug 'garbas/vim-snipmate'
 " Plug 'terryma/vim-multiple-cursors'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'skywind3000/asynctasks.vim'
+Plug 'skywind3000/asyncrun.vim'
 
 call plug#end()
 
-" \ '03.build_task.vim',
 " \ '12.deoplete.vim',
 let g:vim_home = get(g:, 'vim_home', expand('~/.config/nvim/configs/'))
 let config_list = [
-	\ '01.basic.vim',
-	\ '02.filetype.vim',
+    \ '01.basic.vim',
+    \ '02.filetype.vim',
+    \ '03.build_task.vim',
     \ '13.coc_neovim.vim',
-	\ '11.system_copy.vim',
+    \ '11.system_copy.vim',
     \ '14.plugin.vim',
-     	\]
+        \]
 for files in config_list
   for f in glob(g:vim_home.files, 1, 1)
     exec 'source' f

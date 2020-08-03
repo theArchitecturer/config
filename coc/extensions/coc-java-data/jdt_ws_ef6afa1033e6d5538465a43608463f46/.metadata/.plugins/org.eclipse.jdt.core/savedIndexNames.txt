@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+/home/thearchitecturer/.config/coc/extensions/coc-java-data/jdt_ws_ef6afa1033e6d5538465a43608463f46/.metadata/.plugins/org.eclipse.jdt.core
+3824074001.index
+1469217132.index
+3842426239.index
+986268730.index

@@ -50,10 +50,10 @@ au BufEnter *.cpp set makeprg=g++\ -g\ %\ -o\ %<
 
 " function! s:build_command()
 
-function! g:Build_active_file()
-    exec "w"
-    silent make
-endfunction
+" function! g:Build_active_file()
+"     exec "w"
+"     silent make
+" endfunction
 
 
 
