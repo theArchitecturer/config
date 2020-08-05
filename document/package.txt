@@ -1,0 +1,4 @@
+tmux
+zsh
+chromium
+kitty
