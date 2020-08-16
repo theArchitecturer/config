@@ -1,6 +1,7 @@
 """"""""""""""""""""""""""""""
 " => Python section
 """"""""""""""""""""""""""""""
+au BufRead *.pyx set filetype=python
 
 """"""""""""""""""""""""""""""
 " => Rust section
@@ -50,10 +51,7 @@ au BufEnter *.cpp set makeprg=g++\ -g\ %\ -o\ %<
 
 " function! s:build_command()
 
-" function! g:Build_active_file()
-"     exec "w"
-"     silent make
-" endfunction
+autocmd FileType python let b:coc_root_patterns = ['.vscode']
 
 
 

@@ -13,18 +13,18 @@ nnoremap <F8> :TagbarToggle<CR>
 "#|_| |_|\___|_|  \__,_|\__|_|  \___|\___|
 
 "autocmd vimenter * NERDTree	"auto open nerdtree when vim start
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif	"auto open nerdtree if no file were specified
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | exe 'cd '.argv()[0] | endif	"open nerdtree automatically when vim start up on a opening directory
-map <leader>n :NERDTreeToggle<CR>	 
+" autocmd StdinReadPre * let s:std_in=1
+" autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif	"auto open nerdtree if no file were specified
+" autocmd StdinReadPre * let s:std_in=1
+" autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | exe 'cd '.argv()[0] | endif	"open nerdtree automatically when vim start up on a opening directory
+" map <leader>n :NERDTreeToggle<CR>	 
 " map <C-n> :NERDTreeToggle<CR>	 
 "Toggle NERDTree
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif	"Close vim if the onky open window left is NERDTree
-let g:NERDTreeDirArrowExpandable = '⇲' "▸
-let g:NERDTreeDirArrowCollapsible = '▾'
-let NERDTreeShowHidden=1	"Show hidden file
-set guifont=Fira\ Code\ Nerd\ Font\ 21
+" autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif	"Close vim if the onky open window left is NERDTree
+" let g:NERDTreeDirArrowExpandable = '⇲' "▸
+" let g:NERDTreeDirArrowCollapsible = '▾'
+" let NERDTreeShowHidden=1	"Show hidden file
+" set guifont=Fira\ Code\ Nerd\ Font\ 21
 
 "           _       _                                              _   _              _
 " _ __ __ _(_)_ __ | |__   _____      _ _ __   __ _ _ __ ___ _ __ | |_| |__   ___ ___(_)___
@@ -81,3 +81,6 @@ let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 "( a | s | y | n | c | r | u | n )
 " \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ 
 let g:asyncrun_open = 5
+let g:rnvimr_ex_enable = 1
+
+nmap <leader>n :RnvimrToggle<CR>
