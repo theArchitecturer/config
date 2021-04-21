@@ -17,17 +17,7 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'altercation/vim-colors-solarized'
 Plug 'morhetz/gruvbox'
 Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'bling/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'christoomey/vim-tmux-navigator'
-Plug 'camspiers/animate.vim'
 Plug 'kien/rainbow_parentheses.vim'
-" Plug 'sheerun/vim-polyglot'
-" Plug '~/Dev/Python/neovim_plugin/simple'
-" Plug '~/Dev/Python/neovim_plugin/simple.nvim'
-Plug 'theArchitecturer/simple'
-" Plug '~/Dev/Python/neovim_plugin/Simple'
-" Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
 " Plug 'scrooloose/nerdtree'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
@@ -37,8 +27,6 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'skywind3000/asyncrun.vim'
 
 call plug#end()
 
