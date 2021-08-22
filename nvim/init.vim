@@ -28,10 +28,10 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'  }
 
 call plug#end()
 
-" \ '12.deoplete.vim',
     " \ '13.coc_neovim.vim',
 let g:vim_home = get(g:, 'vim_home', expand('~/.config/nvim/configs/'))
 let config_list = [
@@ -40,6 +40,7 @@ let config_list = [
     \ '03.build_task.vim',
     \ '11.system_copy.vim',
     \ '14.plugin.vim',
+    \ '12.deoplete.vim',
         \]
 for files in config_list
   for f in glob(g:vim_home.files, 1, 1)

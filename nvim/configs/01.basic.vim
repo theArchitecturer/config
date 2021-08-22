@@ -53,7 +53,6 @@ au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g
 set dictionary+=k/home/lemonday/.dictionary.txt
 set complete+=k/home/lemonday/.dictionary.txt
 set path+=**
-autocmd VimEnter,VimLeave * silent !tmux set status
 
 "#	          _                       _                         
 "#	         | |                     | |                        
@@ -69,15 +68,8 @@ colorscheme dracula
 " let g:gruvbox_termcolors=256
 " colorscheme solarized
 " let g:solarized_termcolos=256
-let g:airline_theme='bubblegum'
 " hi Normal guibg=NONE ctermbg=NONE
 
-set statusline+=%#warningmsg#
-set statusline+=%{coc#status()}
-set statusline+=%{FugitiveStatusline()}
-
-let g:airline_powerline_fonts = 1
-" let g:airline#extensions#tabline#enabled = 1
 
 "#  __       _     _ _             
 "# / _| ___ | | __| (_)_ __   __ _ 
@@ -113,10 +105,9 @@ au TabLeave * let g:lasttab = tabpagenr()
 "| ||  __| |  | | | | | | | | | | (_| | |
 " \__\___|_|  |_| |_| |_|_|_| |_|\__,_|_|
 
-nnoremap <leader>ot :split term://zsh <CR>
+" nnoremap <leader>ot :split term://zsh <CR>
 nnoremap <leader>oh :vsplit term://htop <CR>
 nnoremap <leader>oc :vsplit term://cmus <CR>
 tnoremap <Esc> <C-\><C-n>
 let g:python3_host_prog="/usr/bin/python3"
 let g:node_host_prog = '/usr/local/bin/neovim-node-host'
-set runtimepath^=/home/thearchitecturer/Dev/Nodejs/neovim_plugin/simple

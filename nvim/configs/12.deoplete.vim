@@ -8,23 +8,23 @@ let g:deoplete#enable_at_startup = 1
 set completeopt-=preview
 call deoplete#custom#option('max_list', 20)
 
-let g:LanguageClient_serverCommands = {
-            \ 'rust': ['/usr/bin/rustup', 'run', 'stable', 'rls'],
-            \ 'python': ['~/.local/bin/pyls'],
-            \ 'javascript': ['/usr/local/bin/javascript-typescript-stdio'],
-            \ 'typescript': ['/usr/lib/node_modules/typescript/bin/tsserver'],
-            \ 'c': ['ccls', '--log-file=/tmp/cc.log'],
-            \ 'cpp': ['ccls', '--log-file=/tmp/cc.log'],
-            \ 'objc': ['ccls', '--log-file=/tmp/cc.log'],
-            \ }
+" let g:LanguageClient_serverCommands = {
+"             \ 'rust': ['/usr/bin/rustup', 'run', 'stable', 'rls'],
+"             \ 'python': ['~/.local/bin/pyls'],
+"             \ 'javascript': ['/usr/local/bin/javascript-typescript-stdio'],
+"             \ 'typescript': ['/usr/lib/node_modules/typescript/bin/tsserver'],
+"             \ 'c': ['ccls', '--log-file=/tmp/cc.log'],
+"             \ 'cpp': ['ccls', '--log-file=/tmp/cc.log'],
+"             \ 'objc': ['ccls', '--log-file=/tmp/cc.log'],
+"             \ }
 
 " let g:LanguageClient_loadSettings = 1 
 " let g:LanguageClient_settingsPath = '/home/thearchitecturer/.config/nvim/settings.json'
 
-nnoremap <F5> :call LanguageClient_contextMenu()<CR>
-nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
-nnoremap <silent> gd :call LanguageClient#textDocument_definition()<CR>
-nnoremap <silent> <F2> :call LanguageClient#textDocument_rename()<CR>
+" nnoremap <F5> :call LanguageClient_contextMenu()<CR>
+" nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
+" nnoremap <silent> gd :call LanguageClient#textDocument_definition()<CR>
+" nnoremap <silent> <F2> :call LanguageClient#textDocument_rename()<CR>
 
 "  _        _           _
 " | |_ __ _| |__  _ __ (_)_ __   ___
@@ -35,3 +35,4 @@ nnoremap <silent> <F2> :call LanguageClient#textDocument_rename()<CR>
 " \ 'line_limit': 400,
 " \ 'max_num_results': 7,
 " \ })
+call deoplete#custom#option('omni_patterns', { 'go': '[^. *\t]\.\w*'  })
