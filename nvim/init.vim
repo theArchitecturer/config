@@ -27,12 +27,21 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'  }
+" Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+" Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'  }
+" Plug 'Shougo/neosnippet.vim'
+" Plug 'Shougo/neosnippet-snippets'
+" Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+" Plug 'kyazdani42/nvim-web-devicons'
+Plug 'romgrk/barbar.nvim'
+" Plug 'kyazdani42/nvim-tree.lua'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 
 call plug#end()
 
-    " \ '13.coc_neovim.vim',
+    " \ '15.tabline.vim',
+    " \ '12.deoplete.vim',
 let g:vim_home = get(g:, 'vim_home', expand('~/.config/nvim/configs/'))
 let config_list = [
     \ '01.basic.vim',
@@ -40,7 +49,7 @@ let config_list = [
     \ '03.build_task.vim',
     \ '11.system_copy.vim',
     \ '14.plugin.vim',
-    \ '12.deoplete.vim',
+    \ '13.coc_neovim.vim',
         \]
 for files in config_list
   for f in glob(g:vim_home.files, 1, 1)

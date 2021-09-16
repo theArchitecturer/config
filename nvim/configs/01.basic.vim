@@ -69,6 +69,8 @@ colorscheme dracula
 " colorscheme solarized
 " let g:solarized_termcolos=256
 " hi Normal guibg=NONE ctermbg=NONE
+set guifont=DroidSansMono\ Nerd\ Font\ 11
+"
 
 
 "#  __       _     _ _             
@@ -109,5 +111,5 @@ au TabLeave * let g:lasttab = tabpagenr()
 nnoremap <leader>oh :vsplit term://htop <CR>
 nnoremap <leader>oc :vsplit term://cmus <CR>
 tnoremap <Esc> <C-\><C-n>
-let g:python3_host_prog="/usr/bin/python3"
-let g:node_host_prog = '/usr/local/bin/neovim-node-host'
+
+nnoremap <F5> :GoRun % <CR>

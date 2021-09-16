@@ -1,11 +1,3 @@
-" _              _
-"| |_ __ _  __ _| |__   __ _ _ __
-"| __/ _` |/ _` | '_ \ / _` | '__|
-"| || (_| | (_| | |_) | (_| | |
-" \__\__,_|\__, |_.__/ \__,_|_|
-"          |___/
-nnoremap <F8> :TagbarToggle<CR>
-
 "#                    _ _                 
 "# _ __   ___ _ __ __| | |_ _ __ ___  ___ 
 "#| '_ \ / _ \ '__/ _` | __| '__/ _ \/ _ \
@@ -58,29 +50,24 @@ let g:rbpt_colorpairs = [
 let g:rbpt_max = 16
 let g:rbpt_loadcmd_toggle = 0
 
-"             _                 _
-"  __ _ _ __ (_)_ __ ___   __ _| |_ ___
-" / _` | '_ \| | '_ ` _ \ / _` | __/ _ \
-"| (_| | | | | | | | | | | (_| | ||  __/
-" \__,_|_| |_|_|_| |_| |_|\__,_|\__\___|
+"nvim-tree
+let g:nvim_tree_ignore = [ '.git', 'node_modules', '.cache' , 'go.sum' ] "empty by default
+let g:nvim_tree_auto_open = 1 "0 by default, opens the tree when typing `vim $DIR` or `vim`
+let g:nvim_tree_auto_close = 1 "0 by default, closes the tree when it's the last window
+"
+let g:nvim_tree_window_picker_exclude = {
+    \   'buftype': [
+    \     'terminal'
+    \]
+    \}
+let g:nvim_tree_special_files = { 'README.md': 1, 'Makefile': 1, 'MAKEFILE': 1 , 'go.mod': 1 } " List of filenames that gets highlighted with NvimTreeSpecialFile
+nnoremap <C-n> :NvimTreeToggle<CR>
+nnoremap <leader>r :NvimTreeRefresh<CR>
+nnoremap <leader>n :NvimTreeFindFile<CR>
 
-nnoremap <silent> <Up>    :call animate#window_delta_height(10)<CR>
-nnoremap <silent> <Down>  :call animate#window_delta_height(-10)<CR>
-nnoremap <silent> <Left>  :call animate#window_delta_width(10)<CR>
-nnoremap <silent> <Right> :call animate#window_delta_width(-10)<CR>
+nnoremap <silent>    <C-T> :BufferPrevious<CR>
+nnoremap <silent>    <C-S-T> :BufferNext<CR>
 
-" _           _            _   _     _
-"(_)_ __   __| | ___ _ __ | |_| |   (_)_ __   ___
-"| | '_ \ / _` |/ _ | '_ \| __| |   | | '_ \ / _ \
-"| | | | | (_| |  __| | | | |_| |___| | | | |  __/
-"|_|_| |_|\__,_|\___|_| |_|\__|_____|_|_| |_|\___|
-let g:indentLine_char_list = ['|', '¦', '┆', '┊']
-
-"  _   _   _   _   _   _   _   _  
-" / \ / \ / \ / \ / \ / \ / \ / \ 
-"( a | s | y | n | c | r | u | n )
-" \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ 
-let g:asyncrun_open = 5
-let g:rnvimr_ex_enable = 1
-
-nmap <leader>n :RnvimrToggle<CR>
+let bufferline = get(g:, 'bufferline', {})
+let bufferline.icons = v:false
+let bufferline.closable = v:false

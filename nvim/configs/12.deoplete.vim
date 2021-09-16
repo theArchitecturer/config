@@ -6,7 +6,9 @@
 "                 |_|
 let g:deoplete#enable_at_startup = 1
 set completeopt-=preview
-call deoplete#custom#option('max_list', 20)
+call deoplete#custom#option('max_list', 10)
+" <TAB>: completion.
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 
 " let g:LanguageClient_serverCommands = {
 "             \ 'rust': ['/usr/bin/rustup', 'run', 'stable', 'rls'],
@@ -36,3 +38,4 @@ call deoplete#custom#option('max_list', 20)
 " \ 'max_num_results': 7,
 " \ })
 call deoplete#custom#option('omni_patterns', { 'go': '[^. *\t]\.\w*'  })
+let g:neosnippet#snippets_directory='~/.config/nvim/snippets'
